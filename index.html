@@ -24,7 +24,7 @@
               clifford: "#da373d",
               "bike-primary": "#E76F51",
               "bike-primary-bg": "rgba(231, 111, 81, 0.10)",
-              'font-poppins': "font-family: 'Poppins', sans-serif;"
+              "font-poppins": "font-family: 'Poppins', sans-serif;",
             },
           },
         },
@@ -64,7 +64,9 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost normal-case text-2xl">Bikers Zone</a>
+            <a class="btn btn-ghost normal-case text-2xl font-bold"
+              >Bikers Zone</a
+            >
           </div>
           <div class="navbar-end hidden lg:flex">
             <ul class="menu menu-horizontal px-1 text-xl">
@@ -80,7 +82,7 @@
         </div>
       </nav>
 
-      <section class="max-w-screen-xl m-auto">
+      <section>
         <div class="carousel w-full bg-bike-primary-bg">
           <div
             id="slide1"
@@ -182,11 +184,11 @@
         </div>
       </section>
     </header>
-    <main>
-      <section class="max-w-screen-xl m-auto my-24">
-        <h3 class="text-5xl mb-10 text-center">Latest Bikes</h3>
+    <main class="max-w-screen-xl m-auto">
+      <section class="my-24">
+        <h3 class="text-5xl mb-10 text-center font-bold">Latest Bikes</h3>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 m-3">
-          <div class="card bg-base-100 shadow-xl ">
+          <div class="card bg-base-100 shadow-xl">
             <figure>
               <img src="/images/others/latest1.png" alt="Shoes" />
             </figure>
@@ -239,6 +241,81 @@
           </div>
         </div>
       </section>
+     <!--  user section start here -->
+      <section>
+        <h3 class="text-2xl md:text-5xl font-bold text-center mb-10">
+          Happy <span class="text-bike-primary">Clients Says</span>
+        </h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 m-5">
+            <div class="card border-2">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/images/others/user-1.png"
+                    alt="Shoes"
+                    class="rounded-xl w-1/2"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                  
+                  <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                  <h2 class="card-title text-sky-400">Regina Miles</h2>
+                  <p>Banker</p>
+                </div>
+              </div>
+            <div class="card border-2">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/images/others/user-2.png"
+                    alt="Shoes"
+                    class="rounded-xl w-1/2"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                  
+                  <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                  <h2 class="card-title text-sky-400">Regina Miles</h2>
+                  <p>Banker</p>
+                </div>
+              </div>
+            <div class="card border-2">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/images/others/user-3.png"
+                    alt="Shoes"
+                    class="rounded-xl w-1/2"
+                  />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked/>
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                  
+                  <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                  <h2 class="card-title text-sky-400">Regina Miles</h2>
+                  <p>Banker</p>
+                </div>
+              </div>
+        </div>
+      </section>
+      <!--  user section end here -->
     </main>
     <footer></footer>
   </body>
